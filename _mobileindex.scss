@@ -1,0 +1,124 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px; 
+    }
+
+
+
+    .header {
+        padding-top: 32px;
+        &__input {
+            display: none;
+            
+        }
+        border-bottom: none;
+    }
+
+    .menu__mobile {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__logo {
+        width: 99px;
+    }
+
+    .heading {
+        &__house {
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+        }
+        &__text {
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+        }
+        &__catalog {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 14px;
+        }
+    }
+
+    .heading {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .for {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+
+        &__item {
+            grid-column: 1 / -1;
+            height: 375px;
+            font-size: 28px;
+            line-height: 34px;
+
+
+            &_big {
+                height: 244px;
+            }
+        }
+    }
+
+    .footer {
+        padding-bottom: 32px;
+    }
+
+    .footer-box {
+        gap: 32px;
+    }
+
+    .special {
+        font-size: 24px;
+        line-height: 29px;
+        padding-bottom: 32px;
+    }
+
+    .product__name {
+        font-size: 18px;
+    }
+
+    .product__price {
+        font-size: 18px;
+        &__price_old {
+        font-size: 18px;
+        }
+    }
+
+    .item {
+        font-size: 24px;
+        padding-bottom: 0;
+        margin-top: 0;
+    }
+
+    .footer-box {
+        display: flex;
+        padding-top: 32px;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 32px 117px;
+    }
+
+    .filtering__form {
+        display: none;
+    }
+
+    .footer__inform-text {
+        padding-top: 71px;
+    }
+
+
+
+}
